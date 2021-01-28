@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tp Tableau étudiants</title>
+	<meta charset="utf-8">
+	<!-- Liens Boostraap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Listes des étudiants</h1>
+<!-- Tableau Boostraap-->
+	<table class="table">
+	  <thead>
+	    <tr>
+	      <th scope="col">NOM</th>
+	      <th scope="col">Prenom</th>
+	      <hr>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th scope="row" style="background:#909B9A ;">CAMARA</th>
+	      <td style="background: #909B9A;">Moussa</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">DUPONT</th>
+	      <td>Jean</td>
+	    </tr>
+	    <tr>
+	      <th scope="row" style="background:#909B9A">PAUL</th>
+	      <td style="background: #909B9A">François</td>
+	     </tr>
+	    <tr>
+	      <th scope="row">TEST</th>
+	      <td >Cda</td>
+	      </tr>
+	    <tr>
+	      <th scope="row" style="background: #909B9A">MACRON</th>
+	      <td style="background: #909B9A">Emmanuel</td>
+	    </tr>  
+	    <tr>
+	      <th scope="row"></th>
+	      <td></td>
+	    </tr>  
+
+	<div id="admis">
+		<input type="text" value=" Etudiants admis" onclick="lesadmis()">
+	</div>
+
+	<div id="pasadmis">
+	<input type="text" value="Etudiants non admis" onclick="pasadmis()">
+	</div>
+
+	<div id="pasinscrit">
+	<input type="button" value="Pas encore inscrit" onclick="pasinscrit()">
+	</div>
+
+	  </tbody>
+	</table>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>	
